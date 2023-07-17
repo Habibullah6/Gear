@@ -1,0 +1,139 @@
+/* common style */
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 1rem;
+}
+main {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* header start style */
+.header-section {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+  padding: 10px;
+  font-size: 16px;
+}
+/* journey part style */
+.part-1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0;
+}
+.title-name {
+  font-size: 52px;
+}
+.journey {
+  width: 50%;
+}
+.journey p {
+  font-size: 16px;
+}
+.journey .button {
+  text-decoration: none;
+  border-radius: 41px;
+  background: #e02c6d;
+  padding: 10px 24px;
+  color: #ffffff;
+}
+/* I am working here */
+
+.camera {
+  background-image: url(../images/Circle\ design.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.camera img {
+  width: 440px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+/* company logo section */
+
+.brand {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+  width: 900px;
+}
+/* Popular Collection style */
+.popular {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  grid-gap: 1.5rem;
+}
+.collection {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+}
+.collection-img {
+  width: 300px;
+  height: 256px;
+}
+.product-title {
+  font-size: 28px;
+  color: #18191f;
+}
+.price {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 24px;
+}
+.rating .fa-star.filled {
+  color: #fb8200;
+  font-size: 14px;
+}
+.extra-text {
+  color: var(--gray-50, #787885);
+  font-size: 14px;
+}
+/* featured area style */
+
+.featured {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 100px;
+}
+
+.footer {
+  background-color: #18191f;
+  margin-top: 100px;
+  padding: 1rem;
+}
+.footer-title {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 24px;
+}
+.footer-discription {
+  color: #d9dbe1;
+  text-align: center;
+
+  font-size: 14px;
+}
+.social-link {
+  display: flex;
+  justify-content: center;
+}
+
+.fa-brands {
+  font-size: 1.5rem;
+  margin: 10px;
+  color: white;
+  background-color: rgb(156, 155, 155);
+  padding: 10px;
+  border-radius: 50%;
+}
